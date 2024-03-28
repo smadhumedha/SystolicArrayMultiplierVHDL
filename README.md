@@ -7,7 +7,6 @@
 </head>
 <body>
 
-<h1>Array Multiplier Verilog Repository</h1>
 
 <p>This repository contains Verilog files for an array multiplier module and a testbench for simulating its functionality. The array multiplier is designed to perform multiple multiplications concurrently using MAC (Multiply-Accumulate) units.</p>
 
