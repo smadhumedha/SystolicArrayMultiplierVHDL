@@ -13,9 +13,9 @@
 <h2>Files</h2>
 
 <ul>
-  <li><code>Array_multiplier.v</code>: This Verilog module implements the array multiplier. It takes multiple pairs of 32-bit input data values and calculates their multiplications concurrently, producing multiple 64-bit output values.</li>
+  <li><code>SystolicArrayMultiplier.v</code>: This Verilog module implements the array multiplier. It takes multiple pairs of 32-bit input data values and calculates their multiplications concurrently, producing multiple 64-bit output values.</li>
   
-  <li><code>Array_multiplier_tb.v</code>: This is the testbench for the <code>Array_multiplier</code> module. It provides input values and simulates the behavior of the multiplier, capturing the output results for verification.</li>
+  <li><code>SystolicArrayMultiplier_tb.v</code>: This is the testbench for the <code>Array_multiplier</code> module. It provides input values and simulates the behavior of the multiplier, capturing the output results for verification.</li>
   
   <li><code>mac1.v</code>: This Verilog module represents a Multiply-Accumulate (MAC) unit. It takes two 32-bit input data values, multiplies them, and accumulates the result.</li>
 </ul>
@@ -24,7 +24,7 @@
 
 <ol>
   <li>Clone the repository to your local machine:</li>
-  <code>git clone https://github.com/your-username/array-multiplier.git</code>
+  <code>git clone https://github.com/your-username/SystolicArrayMultiplierVHDL.git</code>
   
   <li>Navigate to the repository directory:</li>
   <code>cd array-multiplier</code>
